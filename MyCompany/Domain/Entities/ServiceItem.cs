@@ -4,7 +4,7 @@ namespace MyCompany.Domain.Entities
 {
     public class ServiceItem : EntityBase
     {
-        [Required(ErrorMessage = "Заполните название услуги")]
+        [Required(ErrorMessage = "Заповніть назву послуги")]
         [Display(Name = "Назва послуги")]
         public override string Title { get; set; }
 
